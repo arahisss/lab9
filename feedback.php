@@ -53,8 +53,5 @@
                     
                 </form>
             </div>
-        </div>
-    </section>
-    
-</body>
-</html>
+
+<?php require("blocks/footer.php") ?>

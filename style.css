@@ -1,10 +1,12 @@
 body {
     margin: 0;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(225, 222, 222);
 
     font-size: 15px;
     line-height: 1.6;
-    color: #fff;
+    color: #000;
 }
 
 h1 {
@@ -22,7 +24,7 @@ h2 {
 }
 
 .section {
-    background: url(img/background_feedback.JPG) no-repeat center center fixed;
+    /* background: url(img/rusnia.jpg) no-repeat center center fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -33,20 +35,33 @@ h2 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #000 solid 1px;
     padding-top: 30px;
     padding-bottom: 10px;
 
 }
 
+a {
+    color:#000;
+}
 
 .header__logo {
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
     text-decoration: none;
 }
 
+.header__logo-img {
+    width: 70px;
+    height: 70px;
+}
+
+.header p {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 50px;
+}
 
 .nav {
     display: flex;
@@ -60,7 +75,6 @@ h2 {
 .nav__link {
     display: flex;
     margin: 0 15px;
-    color: #fff;
     opacity: 0.8;
     font-weight: normal;
     text-decoration: none;
@@ -68,21 +82,22 @@ h2 {
 
 .nav__link:active {
     opacity: 1;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000;
     
 
 }
 
 .nav__link:hover {
     opacity: 1;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000;
     
 
 }
 
 
 .content {
-    width: 50%;
+    font-size: 20px;
+    height: 100%;
     /* text-align: right;
     margin-left: auto; */
     /* margin-right: 0; */
@@ -92,7 +107,6 @@ h2 {
 }
 
 .learn_more {
-    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
@@ -110,9 +124,12 @@ il li {
 
 footer {
     display: flex;
-    flex: 0 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* flex: 0 0 auto; */
+    height: 80px;
+    /* margin-top: -80px; */
+
+    
+    /* padding-bottom: 50px; */
 }
 
 footer .nav__link {
@@ -126,7 +143,26 @@ footer .nav__link {
     margin-top: 70px;
 }
 
+.func_table {
+    border-color: #000;
+}
 
+.block_func {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block_func-item {
+    border: red solid 2px;
+    margin-right: 8px;
+    padding: 5px;
+}
+
+.func_const {
+    margin-top: 30px;
+    margin-left: 0px;
+}
 
 /* Feedback page */
 
@@ -141,7 +177,7 @@ footer .nav__link {
     display: flex;
     flex-direction: column;
     width: 350px;
-    color: #ffffff;
+    color: #000;
 
 }
 
@@ -171,7 +207,7 @@ textarea {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-    background-color: rgb(79, 94, 75);
+    background-color: rgb(41, 38, 38);
     padding: 7px 15px;
     text-transform: none;
     border: 1px solid #fff;
