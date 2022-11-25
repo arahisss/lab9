@@ -42,6 +42,14 @@
 
 
                 <nav class="nav">
+                    <!-- <?php 
+                        $a = array('A', 'B', 'C', 'D', 'E');
+                        for ($i = 0; $i < 4; $i++) {
+
+                        }    
+
+                    ?> -->
+
                     <a class="nav__link" href="index.php">Главная</a>
                     <a class="nav__link" href="#">Контакты</a>
                     <a class="nav__link" href="feedback.php">Обратная связь</a>                    
